@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+}
+
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+#renew-button {
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.input-area{
+    margin: 30px;
+}
+
+#grid {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

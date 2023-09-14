@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wordle PPY</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Wordle PPY</h1>
+            <p class="center">Intentos restantes: <span id="intentos">6</span></p>
+            <input type="text" id="guess-input">
+            <button id="guess-button">Intentar</button>
+            <div id="grid"></div>
+            <button class="d-none" id='renew-button'>JUGAR DE NUEVO</button>
+            <div id="guesses"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
